@@ -1,0 +1,113 @@
+*{box-sizing: border-box;}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.main{
+    height: 400px;
+    width: 300px;
+    position:relative ;
+    background-color: white;  
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    
+   
+}
+
+.imgm{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color:#4070f4;
+    border-radius:  25px 25px 0 0;
+    padding-top: 25px;}
+.img{
+    height: 100px;
+    width: 100px;
+    background-image: url(DOC-202.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 4px solid white;
+   
+   
+
+}
+.text{
+    
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing :1px;
+    
+}
+.txt1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;}
+ .txt2{
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 5px;
+        color: black;
+    }
+    .icons{display: flex;
+        align-items: center;
+     justify-content: center;
+    padding-top: 15px;
+   
+   
+    
+    
+
+}
+    .ico{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 34px;
+        width:34px;
+        font-size: 20px;
+        color: white;
+        border-radius: 50%;
+        margin: 0 8px;
+        background-color:blue
+        
+        
+    }
+    .buttons{display: flex;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        margin-right: 10px;
+        column-gap: 20px;
+        font-size: 18px;
+    
+    }
+    .bu1{
+        border-radius: 20px;
+        background-color:#4070f4;
+        color: white;
+        padding-left: 30px;
+         padding-right: 30px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         cursor: pointer;
+    }
+    .buttons .bu1:hover{background-color: #0e4bf1;}
+    
+.end{display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-left: 30px;
+        margin-right: 10px;
+        column-gap: 20px;
+        font-size: 18px;
+    
+    }
