@@ -29,7 +29,7 @@ body{
 .img{
     height: 100px;
     width: 100px;
-    background-image: url(DOC-202.jpg);
+    background-image: url(img.webp);
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
